@@ -30,6 +30,6 @@ def decode(message_file):
     # Return the result
     return text
 
-file_path = "message1.txt"
+file_path = "message.txt"
 decoded_message = decode(file_path)
 print(decoded_message)
